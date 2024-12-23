@@ -47,8 +47,8 @@ export default function Calculator() {
   };
 
   return (
-    <div className="flex flex-col items-center justify-center h-screen bg-gradient-to-r from-purple-300 via-purple-800 to-purple-400 dark:bg-gray-900">
-      <Card className="w-full max-w-md p-6 mx-5 md:mx-0 bg-purple-400 dark:bg-gray-800 text-gray-950 shadow-lg rounded-lg">
+    <div className="flex flex-col items-center justify-center h-screen bg-gradient-to-r from-purple-300 via-purple-800 to-purple-400 dark:bg-gray-900 px-5 md:px-0">
+      <Card className="w-full max-w-md p-6 bg-purple-400 dark:bg-gray-800 text-gray-950 shadow-lg rounded-lg">
         <CardHeader>
           <CardTitle className="text-2xl font-bold">
             Simple Calculator
